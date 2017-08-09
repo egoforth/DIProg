@@ -1,0 +1,32 @@
+Welcome to 
+{{name}}
+<br>
+<br>
+<table>
+	<thead>
+	    <tr>
+	        <td width="150">Name</td>
+	        <td>Description</td>
+	        <td>Cost</td>
+	        <td>Quantity</td>
+	        <td>Subtotal</td>
+	    </tr>
+	</thead>
+	<tbody>
+	{{#each products as |product|}}
+	  <tr>
+	    <td>{{product.name}}</td>
+	    <td>{{product.desc}}</td>
+	    <td>{{product.cost}}</td>
+	    <td>{{product.qty}}</td>
+	    <td>{{prod product.cost product.qty}}</td>
+	  </tr>
+	{{/each}}
+	</tbody>
+	<tr>
+	 <td colspan=4></td>
+	 <td>{{total products}}</td>
+	</tr>
+</table>
+<hr>
+{{outlet}}

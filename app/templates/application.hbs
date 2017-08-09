@@ -1,5 +1,13 @@
 {{!-- The following component displays Ember's default welcome message. --}}
 {{welcome-page}}
+<div class="navbar">
+  <ul>
+    <li>{{link-to 'About' 'about'}}</li>
+    <li>{{link-to 'Products' 'products'}}</li>
+    <li>{{link-to 'Items' 'items'}}</li>
+  </ul>
+</div>
+<hr>
 {{!-- Feel free to remove this! --}}
 
 {{outlet}}

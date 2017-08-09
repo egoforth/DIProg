@@ -1,0 +1,39 @@
+.navbar ul {
+	list-style: none;
+	overflow:hidden;
+	background-color: black;
+	padding: 0px;
+}
+
+.navbar li {
+	float: left;
+}
+
+.navbar li a {
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+}
+
+.navbar li a:hover {
+	background-color: green;
+}
+
+.item-view {
+	border: solid;
+	border-radius: 8px;
+	margin: 10px;
+	background-color: darkblue;
+}
+
+.item-view a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.item-view a:hover {
+	background-color: orange;
+}
